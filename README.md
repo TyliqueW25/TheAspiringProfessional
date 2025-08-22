@@ -12,3 +12,7 @@ I recently started the **Google Cybersecurity Certificate program** to build up 
 - The role of security **frameworks** like NIST and ISO, and how concepts like **defense in depth** and layered controls help protect systems.  
 
 These modules have already given me a strong foundation to build on, and I’m excited to keep applying what I learn through hands-on labs and personal projects.  
+
+## 📂 Portfolio Projects & Scenarios
+I’m creating detailed scenarios to put my knowledge into practice.  
+Check them out in my [Scenarios Branch](https://github.com/TyliqueW25/TheAspiringProfessional/tree/Scenarios/Scenarios).
