@@ -15,4 +15,4 @@ These modules have already given me a strong foundation to build on, and I’m e
 
 ## 📂 Portfolio Projects & Scenarios
 I’m creating detailed scenarios to put my knowledge into practice.  
-Check them out in my [Scenarios Branch](https://github.com/TyliqueW25/TheAspiringProfessional/tree/Scenarios/Scenarios).
+Check them out in my [Scenarios Branch](https://github.com/TyliqueW25/TheAspiringProfessional/tree/Scenarios).
