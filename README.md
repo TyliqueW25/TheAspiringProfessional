@@ -12,4 +12,3 @@ Each scenario is meant to show how I think through problems, use different tools
 - [Security Policy & Risk Assessment](./SecurityPolicy/README.md)  
 
 I’ll keep adding more scenarios here as I move through the program and gain more experience.  
-✨ Why this works:
