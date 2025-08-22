@@ -1,7 +1,7 @@
 # TheAspiringProfessional 🚀
 
 ## 👋 About Me
-My name is **Tylique Walters**, and I’m working toward a career in cybersecurity because I’ve always had a strong connection with technology and a genuine interest in how systems work—and how they can be protected. I’ve been using computers since middle school, and over time I’ve become really comfortable navigating different systems and solving technical problems on my own.  
+My name is **Tylique Walters**, and I’m working toward a career in cybersecurity because I’ve always had a strong connection with technology and a genuine interest in how systems work and how they can be protected. I’ve been using computers since middle school, and over time I’ve become really comfortable navigating different systems and solving technical problems on my own.  This is one of the very many things i cherish, Tech!
 
 One of my biggest strengths is **critical thinking**. I enjoy digging into complex issues, breaking them down, and figuring out how to solve them. That curiosity and problem-solving mindset is what led me to cybersecurity.  
 
