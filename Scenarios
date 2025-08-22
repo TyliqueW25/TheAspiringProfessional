@@ -3,7 +3,7 @@
 Each scenario is meant to show how I think through problems, use different tools, and apply the knowledge I’ve been learning. I include steps, screenshots, and takeaways for each one.  
 
 ## 🔗 Scenarios
-- [Incident Response Simulation](./IncidentResponse/README.md)  
+- https://github.com/TyliqueW25/TheAspiringProfessional/blob/Scenarios/IncidentResponse/README.md  
 - [Phishing Email Analysis](./PhishingAnalysis/README.md)  
 - [Log Analysis with Splunk](./LogAnalysis/README.md)  
 - [Vulnerability Assessment](./VulnerabilityAssessment/README.md)  
