@@ -1,23 +1,54 @@
 # Incident Response Simulation 🔐
 
 ## Background
-In this scenario, I walked through how I would handle a situation where a workstation started sending out suspicious traffic. My goal was to think like a security analyst — spot the problem, dig into it, and figure out what actions to take.  
+For this scenario, I walked through how I would handle a workstation sending out suspicious outbound traffic. I’m still early in my journey, but I wanted to practice what I’ve learned so far — spotting a problem, breaking it down, and thinking through the steps I’d take to respond.  
+
+---
 
 ## Tools I Used
-- Linux command line (to check the system and logs)  
-- Wireshark (to capture and analyze network traffic)  
-- Splunk (to search and review log data)  
+- **Linux command line** – to look at files and logs  
+- **Wireshark** – to see the network traffic  
+- **Splunk** – to search through logs in a clear way  
 
-## What I Did
-1. First, I imagined isolating the machine from the network to stop the suspicious traffic from spreading or causing more harm.  
-2. Next, I went through the logs to look for unusual IP addresses and connections that stood out.  
-3. I then used Wireshark to dig deeper into the network traffic and see exactly what kind of data was being sent out.  
-4. Finally, I wrote down my findings and tried to piece together what might have caused the issue.  
+---
 
-## What I Found
-- The machine was sending traffic out to a suspicious external IP address.  
-- The behavior looked like there could have been some kind of malware infection.  
+## Steps I Took
+
+### Step 1: Contain the Issue  
+The first thing I thought about was how to stop the problem from getting worse. In this case, I would isolate the computer from the network so no more data could leave.  
+![Isolating the Machine](./screenshots/isolate.png)  
+
+---
+
+### Step 2: Look at the Logs  
+Next, I used what I’ve learned so far about logs and risk to check if there were unusual connections or IP addresses. This is part of availability and integrity from the CIA triad — making sure the system isn’t being misused.  
+![Suspicious Logs](./screenshots/logs.png)  
+
+---
+
+### Step 3: Analyze Network Traffic  
+Then I opened Wireshark to dig deeper into the traffic. By looking at the packets, I could see if the workstation was sending data to a suspicious external server.  
+![Wireshark Capture](./screenshots/wireshark.png)  
+
+---
+
+### Step 4: Document Everything  
+Finally, I documented my findings. Writing down what I saw, the steps I took, and possible risks is part of building a good security process and ties into defense-in-depth.  
+![Documentation Notes](./screenshots/documentation.png)  
+
+---
+
+## Findings
+- I noticed outbound traffic going to a suspicious external IP.  
+- Based on what I’ve learned so far, this could be a vulnerability being taken advantage of or even early signs of malware.  
+
+---
 
 ## What I Learned
-This exercise gave me good practice in thinking through an incident step by step. It reminded me how important it is to **act quickly to contain a threat** and also how powerful tools like logs and packet captures can be when you need to figure out what’s really going on. Most of all, it showed me that good documentation and a clear process make incident response a lot more manageable.  
+This exercise helped me apply what I know from the first modules of the Google Cybersecurity Certificate:  
+- The CIA triad matters in every decision (I wanted to keep the system’s integrity and availability safe).  
+- Thinking about threats and vulnerabilities helps me figure out what’s really happening.  
+- Using tools like Linux, Wireshark, and Splunk makes it easier to investigate step by step.  
+- Defense-in-depth means responding isn’t just one step — it’s a layered process.  
 
+---
