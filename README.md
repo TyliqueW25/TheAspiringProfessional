@@ -34,5 +34,3 @@ The goal: push myself, explore new tools, and document what I learn along the wa
 ---
 
 ## 📝 License
-
-MIT © Tylique
