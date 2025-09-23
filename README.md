@@ -29,7 +29,7 @@ The goal: push myself, explore new tools, and document what I learn along the wa
 
 - All work is practice in safe, isolated environments  
 - No production data or sensitive info included  
-- This is purely for personal growth — a record of how I push myself beyond the certificate  
+- This is purely for personal growth a record of how I shall push myself beyond the certificate  
 
 ---
 
