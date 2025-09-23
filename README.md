@@ -34,3 +34,4 @@ The goal: push myself, explore new tools, and document what I learn along the wa
 ---
 
 ## 📝 License
+https://coursera.org/share/f725f7a3597a43f596dc6ad36944b62c
