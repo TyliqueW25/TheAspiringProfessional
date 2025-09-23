@@ -34,5 +34,5 @@ The goal: push myself, explore new tools, and document what I learn along the wa
 ---
 
 ## 📝 License
-Google Cybersecurity Professional Certificate:
+My Google Cybersecurity Professional Certificate:
 https://coursera.org/share/f725f7a3597a43f596dc6ad36944b62c
