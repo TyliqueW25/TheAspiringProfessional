@@ -1,54 +1,55 @@
-# Incident Response Simulation 🔐
+# Cybersecurity Practice Scenarios 🛡️
 
-## Background
-For this scenario, I walked through how I would handle a workstation sending out suspicious outbound traffic. I’m still early in my journey, but I wanted to practice what I’ve learned so far — spotting a problem, breaking it down, and thinking through the steps I’d take to respond.  
-
----
-
-## Tools I Used
-- **Linux command line** – to look at files and logs  
-- **Wireshark** – to see the network traffic  
-- **Splunk** – to search through logs in a clear way  
+These are extra scenarios I worked on after finishing my Google Cybersecurity Professional Certificate.  
+The goal is simple: push myself, explore new tools, and keep a record of what I learn. This is all me vs me.
 
 ---
 
-## Steps I Took
+## Scenarios
 
-### Step 1: Contain the Issue  
-The first thing I thought about was how to stop the problem from getting worse. In this case, I would isolate the computer from the network so no more data could leave.  
-![Isolating the Machine](./screenshots/isolate.png)  
+### [Incident Response Simulation](./Incident_Response_Simulation)
 
----
+- **Focus**: Handling a mock security incident from detection to containment.
+- **Tools/Notes**: Logs, basic forensics.
 
-### Step 2: Look at the Logs  
-Next, I used what I’ve learned so far about logs and risk to check if there were unusual connections or IP addresses. This is part of availability and integrity from the CIA triad — making sure the system isn’t being misused.  
-![Suspicious Logs](./screenshots/logs.png)  
+### [Phishing Email Analysis](./Phishing_Email_Analysis)
 
----
+- **Focus**: Breaking down a phishing attempt and spotting indicators.
+- **Tools/Notes**: Email headers, payloads.
 
-### Step 3: Analyze Network Traffic  
-Then I opened Wireshark to dig deeper into the traffic. By looking at the packets, I could see if the workstation was sending data to a suspicious external server.  
-![Wireshark Capture](./screenshots/wireshark.png)  
+### [Log Analysis with Splunk](./Log_Analysis_with_Splunk)
 
----
+- **Focus**: Finding anomalies in log data.
+- **Tools/Notes**: Splunk dashboards, SPL queries.
 
-### Step 4: Document Everything  
-Finally, I documented my findings. Writing down what I saw, the steps I took, and possible risks is part of building a good security process and ties into defense-in-depth.  
-![Documentation Notes](./screenshots/documentation.png)  
+### [Vulnerability Assessment](./Vulnerability_Assessment)
 
----
+- **Focus**: Reviewing scan results and planning remediation.
+- **Tools/Notes**: Nessus/OpenVAS, CVSS.
 
-## Findings
-- I noticed outbound traffic going to a suspicious external IP.  
-- Based on what I’ve learned so far, this could be a vulnerability being taken advantage of or even early signs of malware.  
+### [Security Policy & Risk Assessment](./Security_Policy_and_Risk_Assessment)
+
+- **Focus**: Drafting mock policies and prioritizing risks.
+- **Tools/Notes**: Risk matrices, policy templates.
 
 ---
 
-## What I Learned
-This exercise helped me apply what I know from the first modules of the Google Cybersecurity Certificate:  
-- The CIA triad matters in every decision (I wanted to keep the system’s integrity and availability safe).  
-- Thinking about threats and vulnerabilities helps me figure out what’s really happening.  
-- Using tools like Linux, Wireshark, and Splunk makes it easier to investigate step by step.  
-- Defense-in-depth means responding isn’t just one step — it’s a layered process.  
+## How This Branch Works
+
+- Each scenario has its own folder with a `README.md` inside.
+- Inside the `README.md`: steps I followed, screenshots, what I learned.
+- Extra files might include logs, scripts, or configs I used while experimenting.
 
 ---
+
+## Notes
+
+- All work is practice done in safe, isolated environments.
+- No production data or sensitive info is included.
+- This is just for me to track progress, see what works, and what I can do better.
+
+---
+
+## License
+My Google Cybersecurity Certificate:
+https://coursera.org/share/f725f7a3597a43f596dc6ad36944b62c
