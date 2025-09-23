@@ -7,7 +7,7 @@ The goal is simple: push myself, explore new tools, and keep a record of what I 
 
 ## Scenarios
 
-### Incident_Response_Simulation
+### [Incident Response Simulation](./Incident_Response_Simulation)
 
 - **Focus**: Handling a mock security incident from detection to containment.
 - **Tools/Notes**: Logs, basic forensics.
