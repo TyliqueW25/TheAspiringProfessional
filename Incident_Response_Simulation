@@ -1,1 +1,20 @@
+# Incident Response Simulation
 
+## Goal
+Work through a mock security incident from detection to containment.
+
+## Steps I Took
+1. Collected logs from the affected system
+2. Identified suspicious IP traffic and processes
+3. Contained the threat by isolating the machine
+4. Documented findings and drafted a response summary
+
+## Tools Used
+- Linux command line
+- Log files
+- Basic forensics techniques
+
+## What I Learned
+- How to spot unusual activity in logs
+- Why documenting each action matters
+- The importance of quick containment
