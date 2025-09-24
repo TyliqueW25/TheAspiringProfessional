@@ -16,5 +16,7 @@ These modules have already given me a strong foundation to build on, and I’m e
 ## 📂 Portfolio Projects & Scenarios
 I’m creating detailed scenarios to put my knowledge into practice.  
 Check them out in my [Scenarios Branch](https://github.com/TyliqueW25/TheAspiringProfessional/tree/Scenarios).
+
+
 My Google Cybersecurity Professional Certificate: https://coursera.org/share/f725f7a3597a43f596dc6ad36944b62c
 
